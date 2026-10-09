@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SmartWarehouse.Core;
 
+[assembly: DoNotParallelize]
 namespace SmartWarehouse.Tests;
 
 [TestClass]
